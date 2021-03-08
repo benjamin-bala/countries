@@ -1,0 +1,8 @@
+.themeswitcher{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.themeswitcher span{
+    margin-right: 0.7rem;
+}

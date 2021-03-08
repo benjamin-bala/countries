@@ -1,0 +1,5 @@
+.pills{
+    width: max-content;
+    padding: 1rem 5rem;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.048);
+}

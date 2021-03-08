@@ -1,0 +1,13 @@
+.filter{
+    display: flex;
+    height: 5rem;
+}
+.filter select{
+    outline: none;
+    border: none;
+    width: 16rem;
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 2rem rgba(78, 78, 78, 0.103);
+    border-radius: 0.7rem;
+    cursor: pointer;
+}

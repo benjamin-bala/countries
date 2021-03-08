@@ -1,0 +1,94 @@
+.App{
+  height: 100vh;
+}
+.search__container{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding: 3rem 0rem;
+}
+.main__content{
+  padding: 3rem 7rem;
+}
+.card__container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 30rem);
+  grid-gap: 4.5rem;
+}
+.details__container{
+  display: flex;
+  font-size: 1.6rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+.image__box{
+  width: 50%;
+}
+.image__box img{
+  width: 70%;
+}
+.details__heading{
+  margin: 2.5rem 0rem;
+}
+.details__paragraph{
+  display: flex;
+}
+.writeup{
+  width: 50%;
+}
+.details__paragraph div:last-child{
+  margin-left: 7rem;
+}
+.details__paragraph p{
+  padding: 0.6rem 0rem;
+}
+.details__pills{
+  margin: 1.5rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.details__pills div{
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  padding: 1rem 4rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.082);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.btn span{
+  margin-left: 1rem;
+}
+@media(max-width: 768px){
+  .details__container{
+    font-size: 2.5rem;
+  }
+  .image__box{
+    width: 100%;
+  }
+  .image__box img{
+    width: 100%;
+  }
+  .details__paragraph{
+   flex-direction: column;
+  }
+  .writeup{
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .details__paragraph div:last-child,.details__pills{
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  .details__pills div{
+    margin: 0rem;
+    margin-top: 1rem;
+  }
+}
