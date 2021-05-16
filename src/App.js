@@ -44,7 +44,7 @@ function App() {
   const filteredCountries = state.data.filter(country=>{
     return country.name.toLowerCase().includes(state.searchField.toLowerCase()) || country.region.toLowerCase().includes(state.searchField.toLowerCase())
   })
-
+console.log(state.data);
   return (
     <Switch>
       <Route exact path="/">
